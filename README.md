@@ -6,6 +6,7 @@ Repozitář pro verzované šablony fotorealistických úprav 3D půdorysů.
 
 - [FLOORPLAN_ULTRA_REALISTIC_v1.0_LOCKED.md](prompts/FLOORPLAN_ULTRA_REALISTIC_v1.0_LOCKED.md) – původní odzkoušený prompt, geometrie a kamera uzamčené, přirozené denní osvětlení. **Neměnit.**
 - [FLOORPLAN_ULTRA_REALISTIC_v1.1_SUNLIGHT.md](prompts/FLOORPLAN_ULTRA_REALISTIC_v1.1_SUNLIGHT.md) – samostatně použitelná kompletní verze; oproti v1.0 změněna **pouze kapitola 4**, která zdůrazňuje přímé slunce a realistické stíny oken.
+- [FLOORPLAN_ULTRA_REALISTIC_v1.2_BALANCED_SUNLIGHT.md](prompts/FLOORPLAN_ULTRA_REALISTIC_v1.2_BALANCED_SUNLIGHT.md) – mírnější přímé slunce (~−30 % proti v1.1), kratší vnitřní stíny a čisté okolí půdorysu bez dlouhých vržených stínů; ostatní kapitoly beze změny.
 
 ## Použití
 
