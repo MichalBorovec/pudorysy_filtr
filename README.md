@@ -2,11 +2,15 @@
 
 Repozitář pro verzované šablony fotorealistických úprav 3D půdorysů.
 
+## Doporučená ověřená verze (2026-10-16)
+
+**[v1.2 BALANCED SUNLIGHT](prompts/FLOORPLAN_ULTRA_REALISTIC_v1.2_BALANCED_SUNLIGHT.md) – UŽIVATELSKY OVĚŘENO / LOCKED.** Uživatel potvrdil, že verze funguje výborně. Zachovává geometrii, dispozici, okna, dveře, vybavení a kameru; přidává přirozené, přibližně o 30 % mírnější slunce, jemnější interiérové stíny a čisté pozadí okolo půdorysu. Tuto verzi **neupravovat**; pro další změny založit nové číslo verze.
+
 ## Dostupné šablony
 
 - [FLOORPLAN_ULTRA_REALISTIC_v1.0_LOCKED.md](prompts/FLOORPLAN_ULTRA_REALISTIC_v1.0_LOCKED.md) – původní odzkoušený prompt, geometrie a kamera uzamčené, přirozené denní osvětlení. **Neměnit.**
 - [FLOORPLAN_ULTRA_REALISTIC_v1.1_SUNLIGHT.md](prompts/FLOORPLAN_ULTRA_REALISTIC_v1.1_SUNLIGHT.md) – samostatně použitelná kompletní verze; oproti v1.0 změněna **pouze kapitola 4**, která zdůrazňuje přímé slunce a realistické stíny oken.
-- [FLOORPLAN_ULTRA_REALISTIC_v1.2_BALANCED_SUNLIGHT.md](prompts/FLOORPLAN_ULTRA_REALISTIC_v1.2_BALANCED_SUNLIGHT.md) – mírnější přímé slunce (~−30 % proti v1.1), kratší vnitřní stíny a čisté okolí půdorysu bez dlouhých vržených stínů; ostatní kapitoly beze změny.
+- [FLOORPLAN_ULTRA_REALISTIC_v1.2_BALANCED_SUNLIGHT.md](prompts/FLOORPLAN_ULTRA_REALISTIC_v1.2_BALANCED_SUNLIGHT.md) – mírnější přímé slunce (~−30 % proti v1.1), kratší vnitřní stíny a čisté okolí půdorysu bez dlouhých vržených stínů; ostatní kapitoly beze změny. **Ověřená výchozí šablona – LOCKED.**
 
 ## Použití
 
@@ -19,4 +23,4 @@ Repozitář pro verzované šablony fotorealistických úprav 3D půdorysů.
 
 ## Verzování
 
-v1.0 je zamčená referenční verze. Případné další úpravy vydávej pod novým číslem verze a původní soubor zachovej.
+v1.0 zůstává původní zamčená reference, v1.1 experimentální sluneční varianta a **v1.2 je aktuální uživatelsky ověřená, doporučená a zamčená pracovní verze**. Případné další úpravy vydávej pod novým číslem verze; žádnou z existujících verzí nepřepisuj.
