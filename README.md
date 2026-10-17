@@ -11,6 +11,7 @@ Repozitář pro verzované šablony fotorealistických úprav 3D půdorysů.
 - [FLOORPLAN_ULTRA_REALISTIC_v1.0_LOCKED.md](prompts/FLOORPLAN_ULTRA_REALISTIC_v1.0_LOCKED.md) – původní odzkoušený prompt, geometrie a kamera uzamčené, přirozené denní osvětlení. **Neměnit.**
 - [FLOORPLAN_ULTRA_REALISTIC_v1.1_SUNLIGHT.md](prompts/FLOORPLAN_ULTRA_REALISTIC_v1.1_SUNLIGHT.md) – samostatně použitelná kompletní verze; oproti v1.0 změněna **pouze kapitola 4**, která zdůrazňuje přímé slunce a realistické stíny oken.
 - [FLOORPLAN_ULTRA_REALISTIC_v1.2_BALANCED_SUNLIGHT.md](prompts/FLOORPLAN_ULTRA_REALISTIC_v1.2_BALANCED_SUNLIGHT.md) – mírnější přímé slunce (~−30 % proti v1.1), kratší vnitřní stíny a čisté okolí půdorysu bez dlouhých vržených stínů; ostatní kapitoly beze změny. **Ověřená výchozí šablona – LOCKED.**
+- [FLOORPLAN_ULTRA_REALISTIC_v1.3_GEOMETRY_GUARD.md](prompts/FLOORPLAN_ULTRA_REALISTIC_v1.3_GEOMETRY_GUARD.md) – **TESTOVACÍ CANDIDATE (zatím ne LOCKED)**. Vychází z v1.2, světelná kapitola 4 je přesně zachovaná. Zpřísňuje ochranu oken, dveří, rámů, hran, celé siluety a neměnného měřítka/umístění vůči okrajům obrázku. Ověřit na půdorysu, na kterém došlo k deformacím.
 
 ## Použití
 
@@ -23,4 +24,4 @@ Repozitář pro verzované šablony fotorealistických úprav 3D půdorysů.
 
 ## Verzování
 
-v1.0 zůstává původní zamčená reference, v1.1 experimentální sluneční varianta a **v1.2 je aktuální uživatelsky ověřená, doporučená a zamčená pracovní verze**. Případné další úpravy vydávej pod novým číslem verze; žádnou z existujících verzí nepřepisuj.
+v1.0 zůstává původní zamčená reference, v1.1 sluneční varianta a **v1.2 je aktuální uživatelsky ověřená, doporučená a zamčená pracovní verze**. **v1.3 GEOMETRY GUARD** je zatím testovací kandidát, nikoliv náhrada v1.2; povýšit až po ověření na stejném originálním renderu, na kterém v1.2 deformovala dveře/okna. Žádnou z existujících verzí nepřepisuj.
